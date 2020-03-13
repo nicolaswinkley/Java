@@ -1,3 +1,4 @@
+//Shows lengths of Byte, Short, Int, Long
 package app;
 
 public class App {
@@ -14,5 +15,15 @@ public class App {
         byte myMaxByteValue = Byte.MAX_VALUE;
         System.out.println("Byte Minimum Value = " + myMinByteValue);
         System.out.println("Byte Maximum Value = " + myMaxByteValue);
+
+        short myMinShortValue = Short.MIN_VALUE;
+        short myMaxShortValue = Short.MAX_VALUE;
+        System.out.println("Short Minimum Value = " + myMinShortValue);
+        System.out.println("Short Maximum Value = " + myMaxShortValue);
+
+        long myMinlongValue = long.MIN_VALUE;
+        long myMaxlongValue = long.MAX_VALUE;
+        System.out.println("long Minimum Value = " + myMinlongValue);
+        System.out.println("long Maximum Value = " + myMaxlongValue);
     }
 }
