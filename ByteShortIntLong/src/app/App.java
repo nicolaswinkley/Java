@@ -21,8 +21,8 @@ public class App {
         System.out.println("Short Minimum Value = " + myMinShortValue);
         System.out.println("Short Maximum Value = " + myMaxShortValue);
 
-        long myMinlongValue = long.MIN_VALUE;
-        long myMaxlongValue = long.MAX_VALUE;
+        long myMinlongValue = Long.MIN_VALUE;
+        long myMaxlongValue = Long.MAX_VALUE;
         System.out.println("long Minimum Value = " + myMinlongValue);
         System.out.println("long Maximum Value = " + myMaxlongValue);
     }
