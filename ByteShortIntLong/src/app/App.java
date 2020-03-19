@@ -25,5 +25,10 @@ public class App {
         long myMaxlongValue = Long.MAX_VALUE;
         System.out.println("long Minimum Value = " + myMinlongValue);
         System.out.println("long Maximum Value = " + myMaxlongValue);
+
+        int myTotal = (myMinIntValue / 2);
+
+        byte myNewByteValue = (byte) (myMinByteValue / 2);
+        
     }
 }
