@@ -5,7 +5,9 @@ public class App {
     public static void main(String[] args) throws Exception {
         
         int myValue = 10000;
-
+        if (myValue == 0) {
+            
+        }
         int myMinIntValue = Integer.MIN_VALUE;
         int myMaxIntValue = Integer.MAX_VALUE;
         System.out.println("Integer Minimum Value = " + myMinIntValue);
@@ -27,8 +29,12 @@ public class App {
         System.out.println("long Maximum Value = " + myMaxlongValue);
 
         int myTotal = (myMinIntValue / 2);
-
+        if (myTotal == 2) {
+            
+        }
         byte myNewByteValue = (byte) (myMinByteValue / 2);
-        
+        if (myNewByteValue != 0) {
+            
+        }
     }
 }

@@ -1,8 +1,6 @@
 // basic operators and intro to if statements, ternary ops
 package app;
 
-import sun.nio.cs.ext.JISAutoDetect;
-
 public class App {
     public static void main(String[] args) throws Exception {
         int result = 1+2;
