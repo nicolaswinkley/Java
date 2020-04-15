@@ -2,7 +2,8 @@ package app;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello Java");
+        printDayOfTheWeek(-1);
+        
     }
 
     // Write a method with the name printDayOfTheWeek that has one 
@@ -37,7 +38,7 @@ public class App {
                 break;
         
             default:
-            System.out.println("Invalid Day");
+                System.out.println("Invalid Day");
                 break;
         }
     }
