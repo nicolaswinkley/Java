@@ -23,5 +23,6 @@ public class App {
         bobsAccount.withdrawFunds(100.0);
         bobsAccount.depositFunds(51.0);
         bobsAccount.withdrawFunds(100.0);
+    }
 
 }
