@@ -23,6 +23,14 @@ public class App {
         bobsAccount.withdrawFunds(100.0);
         bobsAccount.depositFunds(51.0);
         bobsAccount.withdrawFunds(100.0);
+
+        VipAccount person1 = new VipAccount();
+        System.out.println(person1.getName());
+        VipAccount person2 = new VipAccount("Jim", 25000);
+        System.out.println(person2.getName());
+        VipAccount person3 = new VipAccount("nick", 50000, "email@gmail.com");
+        System.out.println(person3.getName());
+        System.out.println(person3.getEmailAddress());
     }
 
 }
