@@ -22,16 +22,24 @@ public class App {
 
         int number = 4;
         int finishNumber = 20;
+        int evenNumbersFound = 0;
 
+        // modify the while code to record the number of even numbers found
+        // and break when 5 even numbers are found
+        // display the total number of even numbers found
         while (number <= finishNumber) {
             number++;
             if (!isEvenNumber(number)) {
                 continue;
             }
-
             System.out.println("even number " + number);
+            evenNumbersFound++;
+            if (evenNumbersFound >= 5) {
+                break;
+            }
+            
         }
-
+        System.out.println("Total even numbers found: " + evenNumbersFound);
     }
     // Create a method called isEvenNumber that takes a parameter of type int
     // Its purpose is to determine if the argument passed to the method is 
