@@ -119,4 +119,35 @@ public class App {
             return -1;
         }
     }
+
+    //     Write a method called isPalindrome with one int parameter called number.
+    // The method needs to return a boolean.
+    // It should return true if the number is a palindrome number otherwise it should return false.
+    // Check the tips below for more info about palindromes.
+
+    // Example Input/Output
+    // isPalindrome(-1221); → should return true
+    // isPalindrome(707); → should return true
+    // isPalindrome(11212); → should return false because reverse is 21211 and that is not equal to 11212.
+
+    // NOTE: The method isPalindrome needs to be defined as public static like we have been doing
+
+    public static boolean isPalindrome(int number) {
+        int reverse = 0;
+        int lastDigit = 0;
+        int beginningNumber = number;
+
+        while (number != 0) {
+            lastDigit = number % 10;
+            reverse = reverse * 10;
+            reverse = reverse + lastDigit;
+            number = number / 10; 
+        }
+        if (beginningNumber == reverse) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
 }
